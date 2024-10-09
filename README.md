@@ -22,9 +22,7 @@ We conduct extensive experiments on various diffusion models including Stable Di
 
 ## 3. Method Pipeline
 
-<p align="center">
-  <img src="figure/overview.jpg"  style="height:600px; max-width:100%;" />
-</p>
+![main figure](figure/overview.jpg)
 
 Please refer to the [paper](https://arxiv.org/abs/) for more technical details.
 
