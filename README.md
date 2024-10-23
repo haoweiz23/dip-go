@@ -1,5 +1,5 @@
-# DiP-GO: A Dffusion Pruner via Few-step Gradient Optimization
-This is the official repository of  [DiP-GO: A Dffusion Pruner via Few-step Gradient Optimization]().
+# DiP-GO: A Dffusion Pruner via Few-step Gradient Optimization (NeurIPS 2024)
+This is the unofficial repository of  [DiP-GO: A Dffusion Pruner via Few-step Gradient Optimization](https://arxiv.org/abs/2410.16942).
 
 <hr />
 
@@ -9,7 +9,7 @@ This is the official repository of  [DiP-GO: A Dffusion Pruner via Few-step Grad
 ![main figure](figure/visualizations.jpg)
 
 > **<p align="justify"> Abstract:** *Diffusion models have achieved remarkable progress in the field of image generation due to their outstanding capabilities. However, these models require substantial computing resources because of the multi-step denoising process during inference. While traditional pruning methods have been employed to optimize these models, the retraining process necessitates large-scale training datasets and extensive computational costs to maintain generalization ability, making it neither convenient nor efficient. Recent studies attempt to utilize the similarity of features across adjacent denoising stages to reduce computational costs through simple and static strategies. However, these strategies cannot fully harness the potential of the similar feature patterns across adjacent timesteps. In this work, we propose a novel pruning method that derives an efficient diffusion model via a more intelligent and differentiable pruner. At the core of our approach is casting the model pruning process into a SubNet search process. Specifically, we first introduce a SuperNet based on standard diffusion via adding some backup connections built upon the similar features. We then construct a plugin pruner network and design optimization losses to identify redundant computation. Finally, our method can identify an optimal SubNet through few-step gradient optimization and a simple post-processing procedure.
-We conduct extensive experiments on various diffusion models including Stable Diffusion series and DiTs. Our DiP-GO approach achieves 4.4$\times$ speedup for SD-1.5 without any loss of accuracy, significantly outperforming the previous state-of-the-art methods.* </p>
+We conduct extensive experiments on various diffusion models including Stable Diffusion series and DiTs. Our DiP-GO approach achieves 4.4x speedup for SD-1.5 without any loss of accuracy, significantly outperforming the previous state-of-the-art methods.* </p>
 
 <hr />
 
@@ -24,12 +24,12 @@ We conduct extensive experiments on various diffusion models including Stable Di
 
 ![main figure](figure/overview.jpg)
 
-Please refer to the [paper](https://arxiv.org/abs/) for more technical details.
+Please refer to the [paper](https://arxiv.org/abs/2410.16942) for more technical details.
 
 <hr />
 
 ## 4. How to Run Experiments?
-The setup and guidance are coming soon.
+The setup and code are coming soon.
 
 <hr />
 
@@ -38,7 +38,12 @@ The setup and guidance are coming soon.
 If you find our work inspiring in your research, please cite our work.
 
 ```
-
+@article{zhu2024dipgodiffusionprunerfewstep,
+  title={DiP-GO: A Diffusion Pruner via Few-step Gradient Optimization},
+  author={Haowei Zhu and Dehua Tang and Ji Liu and Mingjie Lu and Jintu Zheng and Jinzhang Peng and Dong Li and Yu Wang and Fan Jiang and Lu Tian and Spandan Tiwari and Ashish Sirasao and Jun-Hai Yong and Bin Wang and Emad Barsoum},
+  journal={arXiv preprint arXiv:2410.16942},
+  year={2024}
+}
 ```
 
 <hr />
