@@ -1,0 +1,12 @@
+accelerate>=0.16.0
+torch==2.3.0 
+diffusers==0.28.0
+torchvision==0.18.0
+transformers>=4.25.1
+open-clip-torch==2.24.0
+ftfy
+tensorboard
+Jinja2
+peft==0.7.0
+datasets #==2.24.0
+thop

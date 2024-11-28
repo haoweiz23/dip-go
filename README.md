@@ -29,8 +29,23 @@ Please refer to the [paper](https://arxiv.org/abs/2410.16942) for more technical
 <hr />
 
 ## 4. How to Run Experiments?
-The setup and code are coming soon.
+* We provide the training, evaluating, testing guideline of DiP-GO on SD-1.5 as below:
+### Train
+* Run the training script.
+```
+ bash src/scripts/train_sd15.sh [GPU_ID]
+```
 
+### Eval
+* Run the evaluating script on CoCo / Parti.
+```
+ bash src/scripts/eval_sd15.sh [GPU_ID]
+```
+
+### Run the demo
+```
+ python demo_sd15.py
+```
 <hr />
 
 ## Citation
