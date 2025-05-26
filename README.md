@@ -53,10 +53,12 @@ Please refer to the [paper](https://arxiv.org/abs/2410.16942) for more technical
 If you find our work inspiring in your research, please cite our work.
 
 ```
-@article{zhu2024dipgodiffusionprunerfewstep,
-  title={DiP-GO: A Diffusion Pruner via Few-step Gradient Optimization},
-  author={Haowei Zhu and Dehua Tang and Ji Liu and Mingjie Lu and Jintu Zheng and Jinzhang Peng and Dong Li and Yu Wang and Fan Jiang and Lu Tian and Spandan Tiwari and Ashish Sirasao and Jun-Hai Yong and Bin Wang and Emad Barsoum},
-  journal={arXiv preprint arXiv:2410.16942},
+@article{zhu2024dip,
+  title={Dip-go: A diffusion pruner via few-step gradient optimization},
+  author={Zhu, Haowei and Tang, Dehua and Liu, Ji and Lu, Mingjie and Zheng, Jintu and Peng, Jinzhang and Li, Dong and Wang, Yu and Jiang, Fan and Tian, Lu and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={92581--92604},
   year={2024}
 }
 ```
