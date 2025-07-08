@@ -1,5 +1,5 @@
 accelerate>=0.16.0
-torch==2.3.0 
+torch  # version: 2.3.0 
 diffusers==0.28.0
 torchvision==0.18.0
 transformers>=4.25.1
